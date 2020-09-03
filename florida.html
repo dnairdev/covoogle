@@ -89,14 +89,46 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-6 order-md-2" data-aos="fade-up" data-aos-delay="100">
-            <script src = "script az copy.js"></script>
+          <title>Chart.js Line Chart Template by handsondataviz.org</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta charset="utf-8">
+      
+          <!-- Load jQuery -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+          <!-- Load Chart.js -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+          <script src="https://unpkg.com/chartjs-plugin-colorschemes@0.4.0/dist/chartjs-plugin-colorschemes.min.js"></script>
+      
+          <!-- Load PapaParse to read csv files -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
+        </head>
+      
+        <body>
+      
+          <div>
+            <canvas id="chart-container" style="height: 400px; width: 100%"></canvas>
+          </div>
+          
+          <p style="font-family: Helvetica; color: #333; padding: 1em 2em; font-size: 14px">
+            Source: NY Times and Google Trends 
+            <br>
+            <a href="./fldata.csv">Download data</a> powering this visualization.
+          </p>
+      
+          <script src="script fl.js"></script>
+      
+        </body>
+      
+      </html>
+        
           
           </figure>
         </div>
         <div class="col-md-5 mr-auto" data-aos="fade-up" data-aos-delay="">
           <h2 class="mb-4 section-title"><strong>Florida</strong> Google Search Trend Analysis </h2>
           <p>
-            <img src="images/florida.jpg" alt="Florida Google trends vs confirmed cases">
+        
           </p>
           <p><strong>Observations:</strong> </p>
           <p>1. There is a peak in loss of taste searches albeit slightly delayed before COVID-19 cases increased dramatically. </p>
