@@ -1,6 +1,6 @@
 var TITLE = 'Texas Google Trend Symptoms and Confirmed Cases';
 
-var X_AXIS = 'March 1st 2020-Present';  // x-axis label and label in tooltip
+var X_AXIS = 'March 1st 2020-August 5th 2020';  // x-axis label and label in tooltip
 var Y_AXIS = 'Number of Cases'; // y-axis label and label in tooltip
 
 var BEGIN_AT_ZERO = false;  // Should x-axis start from 0? `true` or `false`
